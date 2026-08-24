@@ -1,4 +1,3 @@
-# web-vuln-scanner
 # Web Vulnerability Scanner
 
 A Python-based web vulnerability scanner designed to identify common security issues in web applications.
