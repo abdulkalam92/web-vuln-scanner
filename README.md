@@ -252,24 +252,7 @@ Do not use this tool to scan, test, attack, or disrupt websites, applications, o
 
 The author is not responsible for misuse of this software.
 
-## Future Improvements
 
-Possible future improvements include:
-
-* Security header analysis
-* SQL injection detection
-* Cross-Site Scripting (XSS) detection
-* Open redirect checks
-* Crawling multiple pages
-* Form analysis
-* Authentication support for authorized testing
-* Vulnerability severity classification
-* Risk scoring
-* HTML report generation
-* Improved JSON reporting
-* Command-line arguments
-* Scan history visualization
-* Unit test expansion
 
 ## Author
 
