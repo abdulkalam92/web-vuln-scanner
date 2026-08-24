@@ -1,0 +1,466 @@
+{
+    "target": "https://www.facebook.com/",
+    "technologies": [],
+    "scan_time": "2026-08-14 16:52:12",
+    "pages": [
+        "https://www.facebook.com/",
+        "https://www.facebook.com/help/297947214257999/?helpref=uf_share",
+        "https://www.facebook.com/help/568137493302217",
+        "https://www.facebook.com/help/637205020878504",
+        "https://www.facebook.com/help/?ref=pf",
+        "https://www.facebook.com/lite/",
+        "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186",
+        "https://www.facebook.com/login/",
+        "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcareers%2F%3Fref%3Dpf",
+        "https://www.facebook.com/login/identify/?ci=AdCZE_kdsWPZ4o1TkdqRtKzP6wBIn6p101S9DaOKzqg8vvveWFx7yQSsSHDYapRqK99Xi19jevUF7iApZDN_r_GT0CSG2Lu4gy9WH2WJZR-m4h6TvTb5jxyCOxV_-xh-ixhhT4v0ew0omc8MS5rEzqX8qUVqEDP0nQwxKlZxorpxh5y-7n29WolsU-o4QLdtUDZaUS9LB6AGbPXItmNaQAp3QLwMXV9NI4DPRGMRof2hA6_kSSbxhXNnoWVJiHd8M2vDCQy7X7JMe5IQYMTz1rq-WKlL",
+        "https://www.facebook.com/pages/create/?ref_type=site_footer",
+        "https://www.facebook.com/policies?ref=pf",
+        "https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer",
+        "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0",
+        "https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer",
+        "https://www.facebook.com/reg/",
+        "https://www.facebook.com/reg/?entry_point=login&next=",
+        "https://www.facebook.com/terms.php",
+        "https://www.facebook.com/watch/",
+        "https://www.meta.com/en-gb/about/?utm_source=about.facebook.com&utm_medium=redirect"
+    ],
+    "parameters": [
+        {
+            "url": "https://www.facebook.com/help/297947214257999/?helpref=uf_share",
+            "parameter": "helpref"
+        },
+        {
+            "url": "https://www.facebook.com/help/?ref=pf",
+            "parameter": "ref"
+        },
+        {
+            "url": "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186",
+            "parameter": "next"
+        },
+        {
+            "url": "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186",
+            "parameter": "campaign_id"
+        },
+        {
+            "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcareers%2F%3Fref%3Dpf",
+            "parameter": "next"
+        },
+        {
+            "url": "https://www.facebook.com/login/identify/?ci=AdCZE_kdsWPZ4o1TkdqRtKzP6wBIn6p101S9DaOKzqg8vvveWFx7yQSsSHDYapRqK99Xi19jevUF7iApZDN_r_GT0CSG2Lu4gy9WH2WJZR-m4h6TvTb5jxyCOxV_-xh-ixhhT4v0ew0omc8MS5rEzqX8qUVqEDP0nQwxKlZxorpxh5y-7n29WolsU-o4QLdtUDZaUS9LB6AGbPXItmNaQAp3QLwMXV9NI4DPRGMRof2hA6_kSSbxhXNnoWVJiHd8M2vDCQy7X7JMe5IQYMTz1rq-WKlL",
+            "parameter": "ci"
+        },
+        {
+            "url": "https://www.facebook.com/pages/create/?ref_type=site_footer",
+            "parameter": "ref_type"
+        },
+        {
+            "url": "https://www.facebook.com/policies?ref=pf",
+            "parameter": "ref"
+        },
+        {
+            "url": "https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer",
+            "parameter": "entry_point"
+        },
+        {
+            "url": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0",
+            "parameter": "entry_point"
+        },
+        {
+            "url": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0",
+            "parameter": "entry"
+        },
+        {
+            "url": "https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer",
+            "parameter": "entry_point"
+        },
+        {
+            "url": "https://www.facebook.com/reg/?entry_point=login&next=",
+            "parameter": "entry_point"
+        },
+        {
+            "url": "https://www.meta.com/en-gb/about/?utm_source=about.facebook.com&utm_medium=redirect",
+            "parameter": "utm_source"
+        },
+        {
+            "url": "https://www.meta.com/en-gb/about/?utm_source=about.facebook.com&utm_medium=redirect",
+            "parameter": "utm_medium"
+        }
+    ],
+    "js_files": [
+        "https://static.xx.fbcdn.net/rsrc.php/v4/y2/r/SBKXRCBa6US.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/wX_WzMqKt9j.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yB/r/2WV4vWDXehy.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yG/r/P-j-SYlH7mC.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yG/r/jMVGcktGGRp.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/4CXrMlZzmeC.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yb/r/7YL5Ho0KV0V.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4/yj/r/T3HYG-KANGg.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4i-Jr4/yh/l/mr_IN-j/nfALmMxlcoFAIYkAL0JM6R.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4i1174/y1/l/mr_IN-j/1o65Hl96YRl.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4i2494/y_/l/mr_IN-j/OFVowLgpgvW.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4i4IR4/yd/l/mr_IN-j/EHJO8aLV9cZGFKQc-IuIC3N-1ZEmgFzVW.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4i9N-4/yZ/l/mr_IN-j/PWugctwgYgW.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iAbF4/yv/l/mr_IN-j/OFVowLgpgvWnfALmMxlcoFAIYkAL0JM6RznSfzNQOQlHW86c_pt9CJ1qFduK7aqGhFf2eUo6zpF-Q1tDpKAJCBQPEMoFi4ky2WWT3HYG-KANGgBkUhC0GyNz6goVhM3RJWQu.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iCLp4/yX/l/mr_IN-j/C45-7ph8aI2djNHL2SkbWC82Yz_4vfOJLFzKE6oTDYvzv_kkAv_-wGQPEyny2oJL0PKoeH_OBybtyfAozIMNFBkkLIDeJ3mCKikwKd4J54-DzDy5M7Ii4j91MOmq97LhqYGUGSBvj8_FEnWvUgvusUN59Btyl4z5lrsY_DuwVDdF1djslfGAB9vKIofBhRuYYy_sRt2hrTIfPG5rTYJQU4PKzR4W-Qx8lcabVTD7vw4WEQhGwKGL85JCVpvVKJZCcc2ZP1Mq8wypiAW_bfkonn-JtdZ7PJuYQLzwqm8BXAdmh5DEndjkKeHWrECl3_nCt-B81RAVhX.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iCRK4/yi/l/mr_IN-j/jCUaT-EFlDP.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iCYJ4/yK/l/mr_IN-j/IWsi9Nf6Pfrh0lLDBIaTk7sabcPHAtbqoHRaxkSS49sBzr7eWhSzXYQo1XONcNk8PBJIn7k_FjY1R758OVXKNdsdXdU4IGPZNQ2wBsqEPHSH1Y3hLS5a8Z7MBVfdniw8BkwfaEDq3Josf6rjqas9KC7eA6xvyfVWAYRn5nrOrgVziYYaoXroJ7K59X9KG6bPk8hAJIzkQ6hTClIoMJZCcc2ZP1MqkHM2TrHr72zXRwDHCkV8R1qQha_ZBgvjTm1Wb7RxDZyDAdmh5DEndjkKeHWrECl3_n-57wOD8EmsOCndvTeBZ7UOZAkS45mUxI0XZD9ZbkqF2O.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iCYJ4/yp/l/mr_IN-j/IWsi9Nf6Pfrh0lLDBIaTk7sabcPHAtbqoHRaxkSS49sBzr7eWhSzXYQo1XONcNk8PBJIn7k_FjY1R758OVXKNdsdXdU4IGPZNQ2wBsqEPHSH1Y3hLS5a8Z7MBVfdniw8BkwfaEDq3Josf6rjqas9KC7eA6xvyfVWAYRn5nrOrgVziYYaoXroJ7K59X9KG6bPk8hAJIzkQ6hTClIoMJZCcc2ZP1MqkHM2TrHr72zqQha_ZBgvjTXRwDHCkV8R1m1Wb7RxDZyDAdmh5DEndjkKeHWrECl3_nCndvTeBZ7UO-57wOD8EmsOZAkS45mUxI0XZD9ZbkqF2O.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iEh14/yk/l/mr_IN-j/AubsEfN3-YgtkzroB_LTk1a8it3-lRZbzAGK-rvBHU1ecTzVZa8LNEOgq97HAlSomet4NNzua_B3GdFXnGasEBJ3mkTtUKy4_OkBgF5eq6NdY6ycC19-CB9BVoHZ0YVFmu3q3HEE_COPzoNDw3bmOqC8atkuwuMV7OAqV0My3-1xuLVCHPnuH3tb6o50_MvgwYRAiNj_GaSMgR8clrVuNuBTyDi0dhJUHTh-Yhkz1Rx1lf-S62eEkus5YX5QR9Et2Pe6dFFkexMokf-6jMpEtIyF0s_FASTO7Fc2Co8bK8OMwpDfTS0GF5o7oiSFvT4YEPHqODLncZ.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iJVq4/y0/l/mr_IN-j/Q7RJTRhMyfN.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iMAs4/yk/l/mr_IN-j/78BtdR388aBwX_WzMqKt9jrHMqZpUwwHdScGqo30kA2zlkBZ0sHVr0YP-j-SYlH7mCvqCCX_K3soiUQd1l8FTwDjFpmFRgJyM_L7mpR9uhiMjHRi7mWBMSxEc.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iOo24/yJ/l/mr_IN-j/a8it3-lRZbz.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iRn04/y0/l/mr_IN-j/2AxvL0EvM5PjMVGcktGGRp7YL5Ho0KV0V.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iRzv4/y1/l/mr_IN-j/OFVowLgpgvWnfALmMxlcoFAIYkAL0JM6RznSfzNQOQlHW86c_pt9CJ1qFduK7aqGhFf2eUo6zpF-Q1tDpKAJCBQPEMoFi4ky2WWT3HYG-KANGgBkUhC0GyNz6goVhM3RJWQuNnMNrLUWbktY0tASFa4U73VLPmGe1C41tWKx9AStJoupHCYQ-aipaRZdPvWHRLMJESFlr7ixsvz43KZZoVQyEgUuEMtUEV-6NzuOslWRNLB9UyxJpRPYGuNWBhH8r3jHp8pRRKKt4kDAu_1.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iURT4/yy/l/mr_IN-j/OFVowLgpgvWnfALmMxlcoFAIYkAL0JM6RznSfzNQOQlHW86c_pt9CJ1qFduK7aqGhFf2eUo6zpF-Q1tDpKAJCBQPEMoFi4ky2WWT3HYG-KANGgBkUhC0GyNz6goVhM3RJWQuiPs2zdQplChY0tASFa4U73.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iVP44/yL/l/mr_IN-j/Ow3r68K4wVC.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iVVC4/yO/l/mr_IN-j/7mpR9uhiMjH.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iVo-4/y1/l/mr_IN-j/MA2udlnawzOgTvbZpEx2CrtXRG9fTgthvyrPt-GOpAsfi6rEIi4Wzb6Wm7VtXsSmmes_TcPuFtrX-s2fyD0hXBxSZOaEYw5QidsGSBvj8_FEnWc3iSk4CwqESyoeh1SCIQ7MeThgnb_eR_TpqP5PYoZDjVDS-cN_PqEHnDsJ6NPe6fiyJAi3UGcYJ0jp0eU_FqQ44e73WKN9OUSblEvOmWfzODfZaW9oz1jfcv1yX-9_Ui0wiqRMNOCUapBYf00hE7Hf04S9V15tj8h63LN2zNFTTMC1ZdgaDvaHaSTQMR6IrKFZ3imtItA15ZBNURTSZGz0fkdONf.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iWy34/ys/l/mr_IN-j/hvy9wMYgu4-UQd1l8FTwDj1eiyLK6uL4WnqwwOdk23-QRi7mWBMSxEcAubsEfN3-YgdpdxROj-Dinx34TX7_uRG3AGK-rvBHU1ecTzVZa8LNEOgq97HAlSomedFXnGasEBJ3Ic0jtSj1NQQBgF5eq6NdY6kNPwCnwa_BY1tjO4__4Lgs3HEE_COPzoN0My3-1xuLVC_iixYX9DusurVuNuBTyDi09Et2Pe6dFFkexMokf-6jMp9mzHkdr2BUDUNViX7Cuc1cxj0788Re69FJfxwNqJag8bPpGq8ZWQqVp8OMwpDfTS0G6Ecn5M51ZecUbXAuHf_g3m.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iY8g4/yQ/l/mr_IN-j/-UJA-vt9rqP7fOW8ShlLKHt4NNzua_B3Gj_GaSMgR8clexMokf-6jMpdRoqppxfImzZZThkJeCHgCCEs-Xh2-75HZOaEYw5QidshkYT9QLLMUhDsJ6NPe6fiyxK2LJFXfZcbPVgBD2WEcRxJVTPI4tbO6y3CS0w9KT5yF.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iY8g4/ya/l/mr_IN-j/-UJA-vt9rqP7fOW8ShlLKHt4NNzua_B3Gj_GaSMgR8clexMokf-6jMpdRoqppxfImzZZThkJeCHgCCEs-Xh2-75HZOaEYw5QidsDsJ6NPe6fiyxK2LJFXfZcbJVTPI4tbO6y3CS0w9KT5yF.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iYeD4/yl/l/mr_IN-j/EHJO8aLV9cZ.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iYfk4/yo/l/mr_IN-j/MdzjMUMr42hj_GaSMgR8clDsJ6NPe6fiyyWOWo5tKK9Y.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ia4S4/yY/l/mr_IN-j/L3okdcDdL0gjMVGcktGGRpQ4ZAhUIucjrwlskqcV582mm-HtuGM-ptx6pcBrDP_2r-p0eU_FqQ44e7YL5Ho0KV0VLzoKRQeiv8-0WH-vRlcketsVjQqltBeBh5itNaYnPBflIWsi9Nf6PfrX3-GvyMDjlUh2otzgdunJleJ7GZZ4UqNchPRjzHY3WGXEGuyiaeN3HQ8R1tcptv6Iwtoz4FR_xXA04Lah-t55E7mg3HNQJdQfiVqLTjP7pcEXA1-IP3ghtd09k273t-18U19RPeryIv6VhVSS1OrajkDar.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iddi4/yb/l/mr_IN-j/sFB_abmsjQ0.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4idnO4/yE/l/mr_IN-j/iPs2zdQplChY0tASFa4U73SAzl1tHkEeD78BtdR388aBWKx9AStJoupHCYQ-aipaRZEMtUEV-6NzuOslWRNLB9UyxJpRPYGuNWBRKKt4kDAu_1yUwI1WD0T-7hvy9wMYgu4-UQd1l8FTwDjYz6hX_ArUJ-FpmFRgJyM_L60CrQqe9mvAnqwwOdk23-QRi7mWBMSxEcAubsEfN3-YgdpdxROj-DinAGK-rvBHU1ecTzVZa8LNEOgq97HAlSomedFXnGasEBJ3BgF5eq6NdY6kNPwCnwa_BY1tjO4__4Lgs3HEE_COPzoN0My3-1xuLVCUGDRger0j8K.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ie9I4/yU/l/mr_IN-j/GFKQc-IuIC3N-1ZEmgFzVWUrwRvlaTH3lQYsxIW5MT222qgvuYi1BODQge8FKnn5GUf-qiiMf5A8-DE4kFeaeInWEMoFi4ky2WWCF5uCr-TKtLkH2AOlyfKAGTNjG8gc6AFg.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ingk4/yq/l/mr_IN-j/EMoFi4ky2WWCF5uCr-TKtLdjNHL2SkbWC_xTXnD_lPGm82Yz_4vfOJLv_kkAv_-wGQehwuL-flAoybLgJC-s0CTQLSF6kN-2GoifAozIMNFBkkOmq97LhqYGUGSBvj8_FEnWtyl4z5lrsY_DuwVDdF1djslfGAB9vKIofBhRuYYy_sRt2hrTIfPG5rTYJQU4PKzR4W-Qx8lcabVTD7vw4WEQhGwKPTg5M4nQTbzGL85JCVpvVKJZCcc2ZP1MqxCq9Sud8xfN8wypiAW_bfkonn-JtdZ7PJuYQLzwqm8BXAdmh5DEndjkKeHWrECl3_nCt-B81RAVhX.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ip674/ym/l/mr_IN-j/B9KYr55JS5o.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iq8a4/yu/l/mr_IN-j/RTd9aOuwg8Z.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4isXl4/y9/l/mr_IN-j/GFKQc-IuIC3N-1ZEmgFzVWUrwRvlaTH3lQYsxIW5MT222qgvuYi1BODQge8FKnn5GUQ7RJTRhMyfNf-qiiMf5A8-.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4itMg4/yA/l/mr_IN-j/znSfzNQOQlHW86c_pt9CJ1qFduK7aqGhFEMoFi4ky2WWBkUhC0GyNz6goVhM3RJWQuY0tASFa4U73HCYQ-aipaRZdPvWHRLMJESOslWRNLB9Uyhvy9wMYgu4-dpdxROj-DinkNPwCnwa_BY9mzHkdr2BUDUNViX7Cuc1cJfxwNqJag8bMZbUCP8XVhY6RAzHzqIkRpNxqqr7jDdHDlpdCxIL5x621YKrlX1YmdCsVjQqltBeBhQRorHodM1axh2otzgdunJl47YFSS12C5uBHl-lElGzTH4Lah-t55E7mxDbXEjxT9ZSLeyNJXqkJ8LvAC17bkaNbZ.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iwnb4/yM/l/mr_IN-j/UrwRvlaTH3lQYsxIW5MT222qgvuYi1BODQge8FKnn5GUf-qiiMf5A8-EMoFi4ky2WWCF5uCr-TKtLdjNHL2SkbWC82Yz_4vfOJLv_kkAv_-wGQfAozIMNFBkkOmq97LhqYGUTJzERHBYNxCGSBvj8_FEnWtyl4z5lrsY_DuwVDdF1djslfGAB9vKIofBhRuYYy_sRt2hrTIfPG5rTYJQU4PKzR4W-Qx8lcabVTD7vw4WEQhGwKGL85JCVpvVKJZCcc2ZP1Mq8wypiAW_bfkonn-JtdZ7PJuYQLzwqm8BXAdmh5DEndjkKeHWrECl3_nCt-B81RAVhX.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ix724/yI/l/mr_IN-j/rVuNuBTyDi0_B5KktDXVUV9mzHkdr2BUDUNViX7Cuc1cYdUzHfNyuZ6JfxwNqJag8b0FkQD-h9z-3UbXAuHf_g3mfvRmMy-H-scYEPHqODLncZHaS_48Ne_KJMA2udlnawzOgTvbZpEx2Cr6RAzHzqIkRpyrPt-GOpAsfGSBvj8_FEnWNxqqr7jDdHDDuwVDdF1djsRMNOCUapBYf2zNFTTMC1ZdiwTCgFR6HKj-Qx8lcabVTDQRorHodM1axdnawk5b0j5Plt1Tc44B_5UJZCcc2ZP1MqONz5fxOwgtVuYQLzwqm8BXAdmh5DEndjkKeHWrECl3_n.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ix724/ya/l/mr_IN-j/gKATZuFJGLIYEPHqODLncZ1kYkgENOfPSMA2udlnawzO4rOly3BbLVb6RAzHzqIkRpZUZpnRDdWTgyrPt-GOpAsfi6rEIi4Wzb6ueMlkCQqlkAGSBvj8_FEnWx0kU0T-R1JzNxqqr7jDdHDkV9zXSCUiCtDuwVDdF1djsDE4QKqQYW_hJAi3UGcYJ0j73WKN9OUSblRMNOCUapBYf2zNFTTMC1ZdpogAWCHqD4an7CqlSpGCOxSZGz0fkdONf-Qx8lcabVTDQRorHodM1axdnawk5b0j5PJZCcc2ZP1MquYQLzwqm8BXAdmh5DEndjkKeHWrECl3_n.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4ix724/yo/l/mr_IN-j/UGDRger0j8KrVuNuBTyDi0_B5KktDXVUV9mzHkdr2BUDUNViX7Cuc1cYdUzHfNyuZ6JfxwNqJag8b0FkQD-h9z-3UbXAuHf_g3mfvRmMy-H-scYEPHqODLncZMA2udlnawzOgTvbZpEx2Cr6RAzHzqIkRpU_obIH06EeEyrPt-GOpAsfGSBvj8_FEnWNxqqr7jDdHDDuwVDdF1djsRMNOCUapBYf2zNFTTMC1ZdiwTCgFR6HKj-Qx8lcabVTDQRorHodM1axdnawk5b0j5PJZCcc2ZP1MqONz5fxOwgtVuYQLzwqm8BXAdmh5DEndjkKeHWrECl3_n.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iyEJ4/yI/l/mr_IN-j/FzKE6oTDYvz.js",
+        "https://static.xx.fbcdn.net/rsrc.php/v4iyjs4/yO/l/mr_IN-j/Lr9o1nn66Kd1cN7DChzMbnSAzl1tHkEeD78BtdR388aBWKx9AStJoupHCYQ-aipaRZEMtUEV-6NzuOslWRNLB9UyxJpRPYGuNWBRKKt4kDAu_1yUwI1WD0T-7hvy9wMYgu4-UQd1l8FTwDjYz6hX_ArUJ-FpmFRgJyM_L60CrQqe9mvAnqwwOdk23-QRi7mWBMSxEcAubsEfN3-YgdpdxROj-DinAGK-rvBHU1ecTzVZa8LNEOgq97HAlSomedFXnGasEBJ3BgF5eq6NdY6kNPwCnwa_BY1tjO4__4Lgs3HEE_COPzoNUIgfWmPDpd20My3-1xuLVC.js"
+    ],
+    "api_endpoints": [
+        "/api/",
+        "/api/billing/graphql/",
+        "/api/graphql",
+        "/api/v1/web/fxcal/iab_settings_perform_login/",
+        "/api/v1/web/linkshim/link/"
+    ],
+    "findings": [
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/"
+        },
+        {
+            "name": "Cookie Missing HttpOnly Flag",
+            "severity": "Medium",
+            "description": "Cookie 'fr' does not have the HttpOnly flag.",
+            "recommendation": "Set the HttpOnly flag to prevent client-side scripts from accessing the cookie.",
+            "url": "https://www.facebook.com/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/help/297947214257999/?helpref=uf_share"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/help/568137493302217"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/help/637205020878504"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/help/?ref=pf"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/lite/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186"
+        },
+        {
+            "name": "Cookie Missing HttpOnly Flag",
+            "severity": "Medium",
+            "description": "Cookie 'fr' does not have the HttpOnly flag.",
+            "recommendation": "Set the HttpOnly flag to prevent client-side scripts from accessing the cookie.",
+            "url": "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=402047449186"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/login/"
+        },
+        {
+            "name": "Cookie Missing HttpOnly Flag",
+            "severity": "Medium",
+            "description": "Cookie 'fr' does not have the HttpOnly flag.",
+            "recommendation": "Set the HttpOnly flag to prevent client-side scripts from accessing the cookie.",
+            "url": "https://www.facebook.com/login/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcareers%2F%3Fref%3Dpf"
+        },
+        {
+            "name": "Cookie Missing HttpOnly Flag",
+            "severity": "Medium",
+            "description": "Cookie 'fr' does not have the HttpOnly flag.",
+            "recommendation": "Set the HttpOnly flag to prevent client-side scripts from accessing the cookie.",
+            "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcareers%2F%3Fref%3Dpf"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.facebook.com/login/identify/?ci=AdCZE_kdsWPZ4o1TkdqRtKzP6wBIn6p101S9DaOKzqg8vvveWFx7yQSsSHDYapRqK99Xi19jevUF7iApZDN_r_GT0CSG2Lu4gy9WH2WJZR-m4h6TvTb5jxyCOxV_-xh-ixhhT4v0ew0omc8MS5rEzqX8qUVqEDP0nQwxKlZxorpxh5y-7n29WolsU-o4QLdtUDZaUS9LB6AGbPXItmNaQAp3QLwMXV9NI4DPRGMRof2hA6_kSSbxhXNnoWVJiHd8M2vDCQy7X7JMe5IQYMTz1rq-WKlL"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/login/identify/?ci=AdCZE_kdsWPZ4o1TkdqRtKzP6wBIn6p101S9DaOKzqg8vvveWFx7yQSsSHDYapRqK99Xi19jevUF7iApZDN_r_GT0CSG2Lu4gy9WH2WJZR-m4h6TvTb5jxyCOxV_-xh-ixhhT4v0ew0omc8MS5rEzqX8qUVqEDP0nQwxKlZxorpxh5y-7n29WolsU-o4QLdtUDZaUS9LB6AGbPXItmNaQAp3QLwMXV9NI4DPRGMRof2hA6_kSSbxhXNnoWVJiHd8M2vDCQy7X7JMe5IQYMTz1rq-WKlL"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/pages/create/?ref_type=site_footer"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/policies?ref=pf"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/reg/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/reg/?entry_point=login&next="
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/terms.php"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.facebook.com/watch/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.meta.com/en-gb/about/?utm_source=about.facebook.com&utm_medium=redirect"
+        },
+        {
+            "name": "Cookie Missing HttpOnly Flag",
+            "severity": "Medium",
+            "description": "Cookie 'csrf' does not have the HttpOnly flag.",
+            "recommendation": "Set the HttpOnly flag to prevent client-side scripts from accessing the cookie.",
+            "url": "https://www.meta.com/en-gb/about/?utm_source=about.facebook.com&utm_medium=redirect"
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/help/297947214257999/?helpref=VULNTEST_7A91",
+            "parameter": "helpref",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/help/?ref=VULNTEST_7A91",
+            "parameter": "ref",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/login.php?next=VULNTEST_7A91&campaign_id=402047449186",
+            "parameter": "next",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fnav_source%3Dunknown%26campaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user&campaign_id=VULNTEST_7A91",
+            "parameter": "campaign_id",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/login/?next=VULNTEST_7A91",
+            "parameter": "next",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/login/identify/?ci=VULNTEST_7A91",
+            "parameter": "ci",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/pages/create/?ref_type=VULNTEST_7A91",
+            "parameter": "ref_type",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/policies?ref=VULNTEST_7A91",
+            "parameter": "ref",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/privacy/center/?entry_point=VULNTEST_7A91",
+            "parameter": "entry_point",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/privacy/policies/cookies/?entry_point=VULNTEST_7A91&entry=0",
+            "parameter": "entry_point",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=VULNTEST_7A91",
+            "parameter": "entry",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/privacy/policy/?entry_point=VULNTEST_7A91",
+            "parameter": "entry_point",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.facebook.com/reg/?entry_point=VULNTEST_7A91&next=",
+            "parameter": "entry_point",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.meta.com/en-gb/about/?utm_source=VULNTEST_7A91&utm_medium=redirect",
+            "parameter": "utm_source",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.meta.com/en-gb/about/?utm_source=about.facebook.com&utm_medium=VULNTEST_7A91",
+            "parameter": "utm_medium",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 21,
+        "Low": 21,
+        "Info": 0
+    },
+    "risk_score": 50,
+    "risk_level": "Medium"
+}

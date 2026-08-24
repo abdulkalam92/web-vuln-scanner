@@ -1,0 +1,758 @@
+{
+    "target": "https://chatgpt.com/",
+    "scan_time": "2026-08-13 22:20:34",
+    "pages": [
+        "https://chatgpt.com/",
+        "https://chatgpt.com/images/",
+        "https://chatgpt.com/maps",
+        "https://chatgpt.com/plugins",
+        "https://chatgpt.com/plugins/plugin_asdk_app_695d84e2f06c8191861b9bac9b3fd53b",
+        "https://chatgpt.com/plugins/plugin_asdk_app_697761cab6f48191b5ed345919a3ce8b",
+        "https://chatgpt.com/plugins/plugin_asdk_app_69a1d78e929881919bba0dbda1f6436d",
+        "https://chatgpt.com/plugins/plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e",
+        "https://chatgpt.com/plugins/plugin_asdk_app_69f3c30d68288191bbd428a394a78407",
+        "https://chatgpt.com/plugins/plugin_asdk_app_6a3293e129088191abf0875820e839da",
+        "https://chatgpt.com/plugins/plugin_connector_1p_1a69035c238881919c4190932b2df699",
+        "https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9",
+        "https://chatgpt.com/plugins/plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7",
+        "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0",
+        "https://chatgpt.com/plugins/plugin_connector_1p_fd0f4f41caa88191a9456514bbffa06d",
+        "https://chatgpt.com/plugins/plugin_connector_68df33b1a2d081918778431a9cfca8ba",
+        "https://chatgpt.com/plugins/plugin_connector_6912075cb358819187346bcafb601db8",
+        "https://chatgpt.com/plugins/plugin_connector_692de805e3ec8191834719067174a384",
+        "https://chatgpt.com/plugins?category=featured",
+        "https://chatgpt.com/plugins?category=productivity"
+    ],
+    "parameters": [
+        {
+            "url": "https://chatgpt.com/plugins?category=featured",
+            "parameter": "category"
+        },
+        {
+            "url": "https://chatgpt.com/plugins?category=productivity",
+            "parameter": "category"
+        }
+    ],
+    "js_files": [],
+    "api_endpoints": [],
+    "findings": [
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/images/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/images/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/images/"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/images/"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/images/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/maps"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/maps"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/maps"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/maps"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/maps"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_695d84e2f06c8191861b9bac9b3fd53b"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_695d84e2f06c8191861b9bac9b3fd53b"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_695d84e2f06c8191861b9bac9b3fd53b"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_695d84e2f06c8191861b9bac9b3fd53b"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_695d84e2f06c8191861b9bac9b3fd53b"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_697761cab6f48191b5ed345919a3ce8b"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_697761cab6f48191b5ed345919a3ce8b"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_697761cab6f48191b5ed345919a3ce8b"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_697761cab6f48191b5ed345919a3ce8b"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_697761cab6f48191b5ed345919a3ce8b"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69a1d78e929881919bba0dbda1f6436d"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69a1d78e929881919bba0dbda1f6436d"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69a1d78e929881919bba0dbda1f6436d"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69a1d78e929881919bba0dbda1f6436d"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69a1d78e929881919bba0dbda1f6436d"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69c18c28f1188191bf5b8445c4ab0a2e"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69f3c30d68288191bbd428a394a78407"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69f3c30d68288191bbd428a394a78407"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69f3c30d68288191bbd428a394a78407"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69f3c30d68288191bbd428a394a78407"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_69f3c30d68288191bbd428a394a78407"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a3293e129088191abf0875820e839da"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a3293e129088191abf0875820e839da"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a3293e129088191abf0875820e839da"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a3293e129088191abf0875820e839da"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a3293e129088191abf0875820e839da"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_1a69035c238881919c4190932b2df699"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_1a69035c238881919c4190932b2df699"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_1a69035c238881919c4190932b2df699"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_1a69035c238881919c4190932b2df699"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_1a69035c238881919c4190932b2df699"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_95d39881713c8191931482a62d6edff9"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_f8509de903288191b14a160c6c5d20b0"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_fd0f4f41caa88191a9456514bbffa06d"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_fd0f4f41caa88191a9456514bbffa06d"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_fd0f4f41caa88191a9456514bbffa06d"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_fd0f4f41caa88191a9456514bbffa06d"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_1p_fd0f4f41caa88191a9456514bbffa06d"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_68df33b1a2d081918778431a9cfca8ba"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_68df33b1a2d081918778431a9cfca8ba"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_68df33b1a2d081918778431a9cfca8ba"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_68df33b1a2d081918778431a9cfca8ba"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_68df33b1a2d081918778431a9cfca8ba"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_6912075cb358819187346bcafb601db8"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_6912075cb358819187346bcafb601db8"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_6912075cb358819187346bcafb601db8"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_6912075cb358819187346bcafb601db8"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_6912075cb358819187346bcafb601db8"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_692de805e3ec8191834719067174a384"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_692de805e3ec8191834719067174a384"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_692de805e3ec8191834719067174a384"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_692de805e3ec8191834719067174a384"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins/plugin_connector_692de805e3ec8191834719067174a384"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins?category=featured"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins?category=featured"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins?category=featured"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins?category=featured"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins?category=featured"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins?category=productivity"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://chatgpt.com/plugins?category=productivity"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://chatgpt.com/plugins?category=productivity"
+        },
+        {
+            "name": "Cookie missing Secure flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute for cookies that should only travel over HTTPS.",
+            "url": "https://chatgpt.com/plugins?category=productivity"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: oai-did",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://chatgpt.com/plugins?category=productivity"
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://chatgpt.com/plugins?category=VULNTEST_7A91",
+            "parameter": "category",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Potential SQL Error Disclosure",
+            "severity": "Medium",
+            "url": "https://chatgpt.com/plugins?category=featured%27",
+            "parameter": "category",
+            "description": "The application response contained a database-related error signature after a malformed parameter value was supplied. This may indicate SQL error disclosure or potential SQL injection.",
+            "recommendation": "Use parameterized queries/prepared statements, avoid exposing database errors to users, and return generic application errors."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://chatgpt.com/plugins?category=VULNTEST_7A91",
+            "parameter": "category",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Potential SQL Error Disclosure",
+            "severity": "Medium",
+            "url": "https://chatgpt.com/plugins?category=productivity%27",
+            "parameter": "category",
+            "description": "The application response contained a database-related error signature after a malformed parameter value was supplied. This may indicate SQL error disclosure or potential SQL injection.",
+            "recommendation": "Use parameterized queries/prepared statements, avoid exposing database errors to users, and return generic application errors."
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 43,
+        "Low": 58,
+        "Info": 0
+    }
+}

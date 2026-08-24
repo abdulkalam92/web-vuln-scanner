@@ -1,0 +1,404 @@
+{
+    "target": "https://login.yahoo.com/",
+    "scan_time": "2026-08-14 16:03:13",
+    "pages": [
+        "https://login.yahoo.com/",
+        "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+        "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+        "https://login.yahoo.com/account/challenge/username?authMechanism=secondary&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=QQ--",
+        "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+        "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+        "https://login.yahoo.com/account/create?specId=usernameregsimplified",
+        "https://login.yahoo.com/account/create?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com",
+        "https://login.yahoo.com/account/create?specId=yidregsimplified",
+        "https://login.yahoo.com/account/create?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com"
+    ],
+    "parameters": [
+        {
+            "url": "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "done"
+        },
+        {
+            "url": "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "prompt"
+        },
+        {
+            "url": "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "done"
+        },
+        {
+            "url": "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "prompt"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?authMechanism=secondary&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=QQ--",
+            "parameter": "authMechanism"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?authMechanism=secondary&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=QQ--",
+            "parameter": "done"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?authMechanism=secondary&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=QQ--",
+            "parameter": "sessionIndex"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "done"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "authMechanism"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "sessionIndex"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "done"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "authMechanism"
+        },
+        {
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "sessionIndex"
+        },
+        {
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com",
+            "parameter": "done"
+        },
+        {
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com",
+            "parameter": "specId"
+        },
+        {
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com",
+            "parameter": "done"
+        }
+    ],
+    "js_files": [
+        "https://s.yimg.com/oa/ac-1.0.601.js",
+        "https://s.yimg.com/ss/analytics3.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/1772-c9bb70bb0106825a.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/225f8dbd-7ed891ab9fc8adf4.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/2901-b56ce645782c5615.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/3695-11b5e77601fb1ce5.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/3794-4c27a1774d6fb773.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/3827-36e136ad725a6d19.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/386-c0c49146b51ec436.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/4698-3373767c382bb157.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/4bd1b696-df4c0fb946159b6a.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/534-565513872d15ae3f.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/6042-f53fc36cbcbeba0a.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/6067-db4fcc5f1034e936.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/8124-d263331ccadee2c9.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/8248-e6a25802430224bd.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/8478-86254626fb244981.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/8648-38b76832c2242a58.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/9316-254c038b7fc654ce.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/app/account/challenge/fail/page-ac5d8949f74ff161.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/app/account/create/page-74ad6dcded461d08.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/app/page-9ac88575a7ccb0cb.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/main-app-5f60f5fa171f1e27.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "https://s.yimg.com/wm/afe/9a3fe972724c01a8315e1f7876a9d05504edf59c0c4658cbf60fb39823e7d0a5/_next/static/chunks/webpack-80c83c743d8ce3e9.js"
+    ],
+    "api_endpoints": [
+        "/v2/public/yql"
+    ],
+    "technologies": [
+        {
+            "name": "ATS",
+            "confidence": "Detected from Server header"
+        }
+    ],
+    "findings": [
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=login"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/challenge/username?authMechanism=secondary&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=QQ--"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/account/create?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'AS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://login.yahoo.com/account/create?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com"
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/?specId=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=VULNTEST_7A91",
+            "parameter": "prompt",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/?specId=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com&prompt=login",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com&prompt=VULNTEST_7A91",
+            "parameter": "prompt",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?authMechanism=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=QQ--",
+            "parameter": "authMechanism",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?authMechanism=secondary&done=https%3A%2F%2Fwww.yahoo.com%2F&sessionIndex=VULNTEST_7A91",
+            "parameter": "sessionIndex",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=VULNTEST_7A91&sessionIndex=QQ--",
+            "parameter": "authMechanism",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=usernameregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=VULNTEST_7A91",
+            "parameter": "sessionIndex",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=QQ--",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=VULNTEST_7A91&sessionIndex=QQ--",
+            "parameter": "authMechanism",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/challenge/username?specId=yidregsimplified&done=https%3A%2F%2Fwww.yahoo.com%2F&authMechanism=secondary&sessionIndex=VULNTEST_7A91",
+            "parameter": "sessionIndex",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/create?specId=VULNTEST_7A91",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/create?specId=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/create?specId=VULNTEST_7A91",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://login.yahoo.com/account/create?specId=VULNTEST_7A91&done=https%3A%2F%2Fwww.yahoo.com",
+            "parameter": "specId",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 16,
+        "Low": 17,
+        "Info": 0
+    },
+    "risk_score": 50,
+    "risk_level": "Medium"
+}

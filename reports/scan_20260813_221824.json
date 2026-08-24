@@ -1,0 +1,56 @@
+{
+    "target": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw==",
+    "scan_time": "2026-08-13 22:18:24",
+    "pages": [
+        "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+    ],
+    "parameters": [
+        {
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw==",
+            "parameter": "next"
+        }
+    ],
+    "js_files": [
+        "https://react.pod-cdn.com/viteEntry/index.c7d27b50.js"
+    ],
+    "api_endpoints": [
+        "/api/"
+    ],
+    "findings": [
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 1,
+        "Low": 3,
+        "Info": 0
+    }
+}

@@ -1,0 +1,997 @@
+{
+    "target": "https://portswigger.net/",
+    "scan_time": "2026-08-12 18:53:52",
+    "pages": [
+        "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o",
+        "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o",
+        "https://portswigger.net/",
+        "https://portswigger.net/about",
+        "https://portswigger.net/about/contact",
+        "https://portswigger.net/blog",
+        "https://portswigger.net/burp",
+        "https://portswigger.net/burp/burp-at",
+        "https://portswigger.net/burp/communitydownload",
+        "https://portswigger.net/burp/dast",
+        "https://portswigger.net/burp/pro",
+        "https://portswigger.net/burp/vulnerability-scanner",
+        "https://portswigger.net/careers/",
+        "https://portswigger.net/customers",
+        "https://portswigger.net/legal",
+        "https://portswigger.net/research",
+        "https://portswigger.net/solutions/attack-surface-visibility",
+        "https://portswigger.net/solutions/ci-driven-scanning",
+        "https://portswigger.net/support/reseller-faqs",
+        "https://portswigger.net/web-security"
+    ],
+    "parameters": [
+        {
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o",
+            "parameter": "state"
+        },
+        {
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o",
+            "parameter": "state"
+        }
+    ],
+    "js_files": [
+        "https://login.portswigger.net/bundles/generic/main.js?v=NQLXN3KpE-n3cHwvqtFlzUKFErE",
+        "https://portswigger.net/bundles/cms/blog.js?v=k6R1otBLMYafufTzuzrv3CRIRhQ",
+        "https://portswigger.net/bundles/generic/main.js?v=NQLXN3KpE-n3cHwvqtFlzUKFErE",
+        "https://portswigger.net/bundles/static-content/public/scripts/main.js?v=NgmUiCsYwhVhi9Bra0okrfjnxkY",
+        "https://portswigger.net/static-content-js/glossary.js",
+        "https://portswigger.net/static-content-js/hero-photo-wall.js",
+        "https://portswigger.net/static-content-js/hero-variant.js",
+        "https://portswigger.net/static-content-js/piwik.js",
+        "https://portswigger.net/static-content-js/posthog.js",
+        "https://portswigger.net/static-content-js/reveal.js",
+        "https://portswigger.net/static-content-js/video-poster.js"
+    ],
+    "api_endpoints": [],
+    "findings": [
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SA5QnJBR0ZwazlKMjZ1WkVCM01HQnZ1blpEMVhjZDJOWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJkWEtadktfTHJ0T1dHbElkYTNrM2FLTGpJY2NaNVVyo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://login.portswigger.net/u/login?state=hKFo2SAyTkxzTERMTVVDdFE0OXplV1FkRndfUjBtLXppOUlwRqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGJINTk4Zk95Z0xVZ2JDQ28zamNHaUJFRVBwSWlUc2hBo2NpZNkgRjFQTkdNb3NxZXV1Tk81Y0tRekRlc3JZMlh6dlBXR3o"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/about"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/about/contact"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/blog"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/burp"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/burp/burp-at"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/burp/communitydownload"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/burp/dast"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/burp/pro"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/burp/vulnerability-scanner"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/careers/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/careers/"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/careers/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/careers/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/careers/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/careers/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/customers"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/legal"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/research"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/solutions/attack-surface-visibility"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/solutions/ci-driven-scanning"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security security header was not found in the response.",
+            "recommendation": "Configure the Strict-Transport-Security header where appropriate.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: SessionId",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://portswigger.net/support/reseller-faqs"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://portswigger.net/web-security"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://portswigger.net/web-security"
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 37,
+        "Low": 97,
+        "Info": 0
+    }
+}

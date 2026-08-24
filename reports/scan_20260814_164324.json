@@ -1,0 +1,626 @@
+{
+    "target": "https://www.youtube.com/",
+    "technologies": [
+        "sffe",
+        "Google Frontend",
+        "ESF"
+    ],
+    "scan_time": "2026-08-14 16:43:24",
+    "pages": [
+        "https://about.youtube/",
+        "https://blog.youtube/",
+        "https://policies.google.com/privacy?hl=en-GB",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/ads/",
+        "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ",
+        "https://www.youtube.com/creators/",
+        "https://www.youtube.com/creators/create/podcasts/",
+        "https://www.youtube.com/howyoutubeworks/",
+        "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+        "https://www.youtube.com/howyoutubeworks/copyright/",
+        "https://www.youtube.com/howyoutubeworks/our-policies/",
+        "https://www.youtube.com/jobs/",
+        "https://www.youtube.com/musicpremium",
+        "https://www.youtube.com/myfamily/",
+        "https://www.youtube.com/new",
+        "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB",
+        "https://www.youtube.com/t/contact_us/",
+        "https://www.youtube.com/t/terms",
+        "https://www.youtube.com/trends/"
+    ],
+    "parameters": [
+        {
+            "url": "https://policies.google.com/privacy?hl=en-GB",
+            "parameter": "hl"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_campaign"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_source"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_medium"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_content"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "u"
+        },
+        {
+            "url": "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB",
+            "parameter": "ybp"
+        }
+    ],
+    "js_files": [
+        "https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=UA-150549451-1",
+        "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdentityPoliciesUi.en_GB._I_WSLNV_ss.2018.O/am=AAAAADAhEwAE/d=1/excm=_b,_tp,privacyhomeview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFT3SiUk4NGYmjpLILT7n-sLDmlJw/dti=1/m=_b,_tp",
+        "https://www.gstatic.com/external_hosted/greensock3/dist/gsap.min.js",
+        "https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js",
+        "https://www.gstatic.com/external_hosted/modernizr/v2_8_3/modernizr.js",
+        "https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js",
+        "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-K7VCRCF&cookieCategory=2A",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-KKWTJ5T&cookieCategory=2A",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-TRKR6LD&cookieCategory=2B",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/creators-4.0.31-c61f107/styles/default/All.min.js",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/youtube-about-1.0.2-4a904a4/styles/default/All.min.js",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/youtube-myfamily-1.0.20-39a4aba/styles/default/All.min.js",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/copyright.index.min.js?cache=10fe866e1d",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/main.index.min.js?cache=fa656fb801",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/policies.index.min.js?cache=690b9f66ba",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/shared.index.min.js?cache=48a9d55d58",
+        "https://www.youtube.com/iframe_api",
+        "https://www.youtube.com/jobs/static/compiled/index.min.js?cache=c694348",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAAAEAEAASAw/d=1/rs=AGKMywFXiSKhW6l5BTZJnQ3Ecwq3O_hpZg/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAAAQAEAASAw/d=1/rs=AGKMywHRVAFeCMXO0ndUnmEkFrB5nRWiuw/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAAAgAEAASAw/d=1/rs=AGKMywEaIZDqQO8ZEFfmzxujphhdZmMEvA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAIAAAEAASAw/d=1/rs=AGKMywH8C_BVxb-TVn_KxBWbS-QXCwIEgg/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/network.vflset/network.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/scheduler.vflset/scheduler.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/spf.vflset/spf.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js",
+        "https://www.youtube.com/trends/static/compiled/index.min.js?cache=3d50803"
+    ],
+    "api_endpoints": [
+        "/api/",
+        "/api/jnn/v1/GenerateIT",
+        "/api/lounge",
+        "/api/loungedev"
+    ],
+    "findings": [
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "X-Content-Type-Options header is missing.",
+            "recommendation": "Set X-Content-Type-Options to nosniff.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: Google Frontend",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Cookie Missing Secure Flag",
+            "severity": "Medium",
+            "description": "Cookie 'NID' does not have the Secure flag.",
+            "recommendation": "Set the Secure flag so the cookie is only transmitted over HTTPS.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Medium",
+            "description": "Content-Security-Policy header is missing. This header helps reduce the impact of XSS and other content injection attacks.",
+            "recommendation": "Configure a suitable Content-Security-Policy for the application.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Medium",
+            "description": "Content-Security-Policy header is missing. This header helps reduce the impact of XSS and other content injection attacks.",
+            "recommendation": "Configure a suitable Content-Security-Policy for the application.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/musicpremium"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/musicpremium"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/new"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/new"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/t/contact_us/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/t/contact_us/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/t/contact_us/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/t/terms"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/t/terms"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: ESF",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/t/terms"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Medium",
+            "description": "X-Frame-Options header is missing. The application may be exposed to clickjacking.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN, or use an appropriate CSP frame-ancestors policy.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "Referrer-Policy header is missing.",
+            "recommendation": "Configure a restrictive Referrer-Policy.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "Permissions-Policy header is missing.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser features.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Server Information Disclosure",
+            "severity": "Low",
+            "description": "The server response exposes server information: sffe",
+            "recommendation": "Minimize unnecessary server/version information exposed in HTTP responses.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://policies.google.com/privacy?hl=VULNTEST_7A91",
+            "parameter": "hl",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.youtube.com/premium?ybp=VULNTEST_7A91",
+            "parameter": "ybp",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 20,
+        "Low": 53,
+        "Info": 0
+    },
+    "risk_score": 50,
+    "risk_level": "Medium"
+}

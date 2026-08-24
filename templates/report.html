@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Security Report</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <h1>
+            Security Assessment Report
+        </h1>
+
+        <p>
+            Mini Web Vulnerability Scanner
+        </p>
+
+    </div>
+
+
+    <!-- TARGET -->
+
+    <div class="section">
+
+        <h2>
+            Target Information
+        </h2>
+
+        <div class="info-card">
+
+            <p>
+                <strong>Target:</strong>
+                {{ results.target }}
+            </p>
+
+            <p>
+                <strong>Scan Time:</strong>
+                {{ results.scan_time }}
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- RISK -->
+
+    <div class="section">
+
+        <h2>
+            Security Risk
+        </h2>
+
+        <div class="risk-card">
+
+            <div class="risk-score">
+
+                {{ results.risk_score }}
+
+                <span>/100</span>
+
+            </div>
+
+            <div class="risk-label">
+                Risk Level
+            </div>
+
+            <div class="risk-level">
+
+                {{ results.risk_level }}
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SEVERITY -->
+
+    <div class="section">
+
+        <h2>
+            Severity Summary
+        </h2>
+
+        <div class="severity-grid">
+
+            <div class="severity-card">
+
+                <h3>Critical</h3>
+
+                <div class="count">
+                    {{ results.severity_counts.get("Critical", 0) }}
+                </div>
+
+            </div>
+
+
+            <div class="severity-card">
+
+                <h3>High</h3>
+
+                <div class="count">
+                    {{ results.severity_counts.get("High", 0) }}
+                </div>
+
+            </div>
+
+
+            <div class="severity-card">
+
+                <h3>Medium</h3>
+
+                <div class="count">
+                    {{ results.severity_counts.get("Medium", 0) }}
+                </div>
+
+            </div>
+
+
+            <div class="severity-card">
+
+                <h3>Low</h3>
+
+                <div class="count">
+                    {{ results.severity_counts.get("Low", 0) }}
+                </div>
+
+            </div>
+
+
+            <div class="severity-card">
+
+                <h3>Info</h3>
+
+                <div class="count">
+                    {{ results.severity_counts.get("Info", 0) }}
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TECHNOLOGIES -->
+
+    <div class="section">
+
+        <h2>
+            Detected Technologies
+        </h2>
+
+        <div class="list-card">
+
+            {% if results.technologies %}
+
+                {% for technology in results.technologies %}
+
+                <div class="list-item">
+                    {{ technology }}
+                </div>
+
+                {% endfor %}
+
+            {% else %}
+
+                <div class="list-item">
+                    No technologies detected.
+                </div>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+
+    <!-- DISCOVERY -->
+
+    <div class="section">
+
+        <h2>
+            Discovery Summary
+        </h2>
+
+        <div class="summary-grid">
+
+            <div class="summary-card">
+
+                <div class="number">
+                    {{ results.pages|length }}
+                </div>
+
+                <div class="label">
+                    Pages
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="number">
+                    {{ results.parameters|length }}
+                </div>
+
+                <div class="label">
+                    Parameters
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="number">
+                    {{ results.js_files|length }}
+                </div>
+
+                <div class="label">
+                    JavaScript Files
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="number">
+                    {{ results.api_endpoints|length }}
+                </div>
+
+                <div class="label">
+                    API Endpoints
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="number">
+                    {{ results.findings|length }}
+                </div>
+
+                <div class="label">
+                    Findings
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PAGES -->
+
+    <div class="section">
+
+        <h2>
+            Discovered Pages
+        </h2>
+
+        <div class="list-card">
+
+            {% for page in results.pages %}
+
+            <div class="list-item">
+
+                {{ page }}
+
+            </div>
+
+            {% else %}
+
+            <div class="list-item">
+                No pages discovered.
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <!-- PARAMETERS -->
+
+    <div class="section">
+
+        <h2>
+            Discovered Parameters
+        </h2>
+
+        <div class="list-card">
+
+            {% for item in results.parameters %}
+
+            <div class="list-item">
+
+                {% if item is mapping %}
+
+                    <strong>
+                        {{ item.get("parameter", "Unknown") }}
+                    </strong>
+
+                    {% if item.get("url") %}
+
+                        — {{ item.get("url") }}
+
+                    {% endif %}
+
+                {% else %}
+
+                    {{ item }}
+
+                {% endif %}
+
+            </div>
+
+            {% else %}
+
+            <div class="list-item">
+                No parameters discovered.
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <div class="section">
+
+        <h2>
+            JavaScript Files
+        </h2>
+
+        <div class="list-card">
+
+            {% for js in results.js_files %}
+
+            <div class="list-item">
+                {{ js }}
+            </div>
+
+            {% else %}
+
+            <div class="list-item">
+                No JavaScript files discovered.
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <!-- API -->
+
+    <div class="section">
+
+        <h2>
+            API Endpoints
+        </h2>
+
+        <div class="list-card">
+
+            {% for endpoint in results.api_endpoints %}
+
+            <div class="list-item">
+                {{ endpoint }}
+            </div>
+
+            {% else %}
+
+            <div class="list-item">
+                No API endpoints discovered.
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <!-- FINDINGS -->
+
+    <div class="section">
+
+        <h2>
+            Security Findings
+        </h2>
+
+
+        {% for finding in results.findings %}
+
+        <div class="finding">
+
+            <div class="finding-title">
+
+                {{ finding.get(
+                    "name",
+                    "Security Finding"
+                ) }}
+
+            </div>
+
+
+            <span class="severity-badge {{ finding.get(
+                'severity',
+                'Info'
+            )|lower }}">
+
+                {{ finding.get(
+                    "severity",
+                    "Info"
+                ) }}
+
+            </span>
+
+
+            {% if finding.get("url") %}
+
+            <p>
+
+                <strong>
+                    URL:
+                </strong>
+
+                {{ finding.get("url") }}
+
+            </p>
+
+            {% endif %}
+
+
+            {% if finding.get("parameter") %}
+
+            <p>
+
+                <strong>
+                    Parameter:
+                </strong>
+
+                {{ finding.get("parameter") }}
+
+            </p>
+
+            {% endif %}
+
+
+            <p>
+
+                <strong>
+                    Description:
+                </strong>
+
+                {{ finding.get(
+                    "description",
+                    "No description available."
+                ) }}
+
+            </p>
+
+
+            <p>
+
+                <strong>
+                    Recommendation:
+                </strong>
+
+                {{ finding.get(
+                    "recommendation",
+                    "No recommendation available."
+                ) }}
+
+            </p>
+
+        </div>
+
+        {% else %}
+
+        <div class="finding">
+
+            <div class="finding-title">
+                No findings detected
+            </div>
+
+            <p>
+                No configured security issues were
+                identified during this scan.
+            </p>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- ACTION BUTTONS -->
+
+    <div
+        style="
+            text-align:center;
+            margin:30px 0;
+        "
+    >
+
+        {% if results.pdf_report %}
+
+        <a
+            href="{{ url_for(
+                'download_report',
+                filename=results.pdf_report
+            ) }}"
+            class="report-button"
+        >
+            Download PDF Report
+        </a>
+
+        {% endif %}
+
+
+        <a
+            href="{{ url_for('index') }}"
+            class="report-button secondary"
+        >
+            New Scan
+        </a>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        Mini Web Vulnerability Scanner
+
+        <br>
+
+        For authorized security testing only.
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

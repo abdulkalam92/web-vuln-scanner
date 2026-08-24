@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Web Vulnerability Scanner</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+    <!-- =================================================
+         HEADER
+    ================================================== -->
+
+    <header class="header">
+
+        <div>
+
+            <h1>🛡️ Web Vulnerability Scanner</h1>
+
+            <p>
+                Security analysis dashboard
+            </p>
+
+        </div>
+
+        <a
+            href="{{ url_for('history') }}"
+            class="button history-button"
+        >
+            Scan History
+        </a>
+
+    </header>
+
+
+    <!-- =================================================
+         SCANNER
+    ================================================== -->
+
+    <section class="scanner-card">
+
+        <h2>
+            Scan Target
+        </h2>
+
+        <form
+            action="{{ url_for('scan') }}"
+            method="POST"
+            id="scanForm"
+        >
+
+            <div class="input-group">
+
+                <input
+                    type="url"
+                    name="url"
+                    placeholder="https://example.com"
+                    required
+                    autocomplete="off"
+                >
+
+                <button
+                    type="submit"
+                    class="scan-button"
+                    id="scanButton"
+                >
+                    🔍 Start Scan
+                </button>
+
+            </div>
+
+        </form>
+
+
+        <!-- SCAN LOADER -->
+
+        <div
+            id="scanLoader"
+            class="scan-loader"
+        >
+
+            <div class="spinner"></div>
+
+            <h3>
+                Scanning target...
+            </h3>
+
+            <p>
+                Please wait while the scanner analyzes the website.
+            </p>
+
+        </div>
+
+
+        {% if error %}
+
+        <div class="error-message">
+
+            {{ error }}
+
+        </div>
+
+        {% endif %}
+
+    </section>
+
+
+    {% if results %}
+
+
+    <!-- =================================================
+         RESULTS
+    ================================================== -->
+
+    <section class="results-section">
+
+
+        <div class="section-header">
+
+            <h2>
+                Scan Results
+            </h2>
+
+            <span class="scan-time">
+                {{ results.get("scan_time", "Unknown") }}
+            </span>
+
+        </div>
+
+
+        <!-- TARGET -->
+
+        <div class="target-box">
+
+            <strong>
+                Target:
+            </strong>
+
+            <span>
+                {{ results.get("target", "Unknown") }}
+            </span>
+
+        </div>
+
+
+        <!-- =================================================
+             PDF REPORT
+        ================================================== -->
+
+        {% if results.get("report_file") %}
+
+        <div class="report-download">
+
+            <div>
+
+                <strong>
+                    📄 Scan Report Ready
+                </strong>
+
+                <p>
+                    Download the complete security assessment as a PDF.
+                </p>
+
+            </div>
+
+            <a
+                href="{{ url_for(
+                    'download_report',
+                    filename=results.get('report_file')
+                ) }}"
+                class="button"
+                target="_blank"
+            >
+                📥 Download PDF Report
+            </a>
+
+        </div>
+
+        {% endif %}
+
+
+        <!-- =================================================
+             RISK DASHBOARD
+        ================================================== -->
+
+        <div class="dashboard-grid">
+
+
+            <!-- RISK SCORE -->
+
+            <div class="dashboard-card">
+
+                <h3>
+                    Risk Score
+                </h3>
+
+                <div class="risk-score">
+
+                    {{ results.get("risk_score", 0) }}
+
+                    <span>
+                        /100
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RISK LEVEL -->
+
+            <div class="dashboard-card">
+
+                <h3>
+                    Risk Level
+                </h3>
+
+                <div
+                    class="risk-level
+                    {% if results.get('risk_level') == 'Critical' %}
+                        critical
+                    {% elif results.get('risk_level') == 'High' %}
+                        high
+                    {% elif results.get('risk_level') == 'Medium' %}
+                        medium
+                    {% elif results.get('risk_level') == 'Low' %}
+                        low
+                    {% else %}
+                        informational
+                    {% endif %}"
+                >
+
+                    {{ results.get(
+                        "risk_level",
+                        "Informational"
+                    ) }}
+
+                </div>
+
+            </div>
+
+
+            <!-- PAGES -->
+
+            <div class="dashboard-card">
+
+                <h3>
+                    Pages
+                </h3>
+
+                <div class="stat-number">
+
+                    {{ results.get(
+                        "pages",
+                        []
+                    )|length }}
+
+                </div>
+
+            </div>
+
+
+            <!-- FINDINGS -->
+
+            <div class="dashboard-card">
+
+                <h3>
+                    Findings
+                </h3>
+
+                <div class="stat-number">
+
+                    {{ results.get(
+                        "findings",
+                        []
+                    )|length }}
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             SEVERITY
+        ================================================== -->
+
+        <section class="result-card">
+
+            <h2>
+                Severity Summary
+            </h2>
+
+            <div class="severity-grid">
+
+
+                <div class="severity critical">
+
+                    <strong>
+                        Critical
+                    </strong>
+
+                    <span>
+                        {{ results.get(
+                            "severity_counts",
+                            {}
+                        ).get("Critical", 0) }}
+                    </span>
+
+                </div>
+
+
+                <div class="severity high">
+
+                    <strong>
+                        High
+                    </strong>
+
+                    <span>
+                        {{ results.get(
+                            "severity_counts",
+                            {}
+                        ).get("High", 0) }}
+                    </span>
+
+                </div>
+
+
+                <div class="severity medium">
+
+                    <strong>
+                        Medium
+                    </strong>
+
+                    <span>
+                        {{ results.get(
+                            "severity_counts",
+                            {}
+                        ).get("Medium", 0) }}
+                    </span>
+
+                </div>
+
+
+                <div class="severity low">
+
+                    <strong>
+                        Low
+                    </strong>
+
+                    <span>
+                        {{ results.get(
+                            "severity_counts",
+                            {}
+                        ).get("Low", 0) }}
+                    </span>
+
+                </div>
+
+
+                <div class="severity info">
+
+                    <strong>
+                        Info
+                    </strong>
+
+                    <span>
+                        {{ results.get(
+                            "severity_counts",
+                            {}
+                        ).get("Info", 0) }}
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TECHNOLOGIES
+        ================================================== -->
+
+        <section class="result-card">
+
+            <h2>
+                Detected Technologies
+            </h2>
+
+            {% if results.get("technologies") %}
+
+            <div class="technology-list">
+
+                {% for technology in results.get(
+                    "technologies",
+                    []
+                ) %}
+
+                    <span class="technology-tag">
+
+                        {{ technology }}
+
+                    </span>
+
+                {% endfor %}
+
+            </div>
+
+            {% else %}
+
+            <p class="muted">
+                No technologies detected.
+            </p>
+
+            {% endif %}
+
+        </section>
+
+
+        <!-- =================================================
+             DISCOVERY
+        ================================================== -->
+
+        <section class="result-card">
+
+            <h2>
+                Discovery
+            </h2>
+
+            <div class="discovery-grid">
+
+
+                <div>
+
+                    <strong>
+                        Pages
+                    </strong>
+
+                    <p>
+                        {{ results.get(
+                            "pages",
+                            []
+                        )|length }}
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        Parameters
+                    </strong>
+
+                    <p>
+                        {{ results.get(
+                            "parameters",
+                            []
+                        )|length }}
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        JavaScript Files
+                    </strong>
+
+                    <p>
+                        {{ results.get(
+                            "js_files",
+                            []
+                        )|length }}
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        API Endpoints
+                    </strong>
+
+                    <p>
+                        {{ results.get(
+                            "api_endpoints",
+                            []
+                        )|length }}
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FINDINGS
+        ================================================== -->
+
+        <section class="result-card">
+
+            <h2>
+                Security Findings
+            </h2>
+
+
+            {% if results.get("findings") %}
+
+                {% for finding in results.get(
+                    "findings",
+                    []
+                ) %}
+
+                <div class="finding-card">
+
+
+                    <div class="finding-header">
+
+                        <h3>
+
+                            {{ finding.get(
+                                "name",
+                                "Unknown Finding"
+                            ) }}
+
+                        </h3>
+
+
+                        <span
+                            class="finding-severity
+                            {{ finding.get(
+                                'severity',
+                                'Info'
+                            )|lower }}"
+                        >
+
+                            {{ finding.get(
+                                "severity",
+                                "Info"
+                            ) }}
+
+                        </span>
+
+                    </div>
+
+
+                    <p>
+
+                        {{ finding.get(
+                            "description",
+                            ""
+                        ) }}
+
+                    </p>
+
+
+                    <div class="recommendation">
+
+                        <strong>
+                            Recommendation:
+                        </strong>
+
+                        {{ finding.get(
+                            "recommendation",
+                            "No recommendation available."
+                        ) }}
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            {% else %}
+
+                <div class="no-findings">
+
+                    ✅ No security findings detected.
+
+                </div>
+
+            {% endif %}
+
+        </section>
+
+
+        <!-- =================================================
+             SERVER
+        ================================================== -->
+
+        {% if results.get("server") %}
+
+        <section class="result-card">
+
+            <h2>
+                Server Information
+            </h2>
+
+            <p>
+                {{ results.get("server") }}
+            </p>
+
+        </section>
+
+        {% endif %}
+
+
+        <!-- =================================================
+             COOKIES
+        ================================================== -->
+
+        {% if results.get("cookies") %}
+
+        <section class="result-card">
+
+            <h2>
+                Cookies
+            </h2>
+
+            <div class="cookie-table">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Name
+                            </th>
+
+                            <th>
+                                Secure
+                            </th>
+
+                            <th>
+                                HttpOnly
+                            </th>
+
+                            <th>
+                                SameSite
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                    {% for cookie in results.get(
+                        "cookies",
+                        []
+                    ) %}
+
+                        <tr>
+
+                            <td>
+                                {{ cookie.get(
+                                    "name",
+                                    "Unknown"
+                                ) }}
+                            </td>
+
+
+                            <td>
+
+                                {% if cookie.get("secure") %}
+                                    ✅
+                                {% else %}
+                                    ❌
+                                {% endif %}
+
+                            </td>
+
+
+                            <td>
+
+                                {% if cookie.get("httponly") %}
+                                    ✅
+                                {% else %}
+                                    ❌
+                                {% endif %}
+
+                            </td>
+
+
+                            <td>
+
+                                {{ cookie.get(
+                                    "samesite",
+                                    "Not detected"
+                                ) }}
+
+                            </td>
+
+                        </tr>
+
+                    {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        {% endif %}
+
+
+    </section>
+
+    {% endif %}
+
+
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+        <p>
+            Web Vulnerability Scanner
+        </p>
+
+        <p>
+            Use only on systems you own or have permission to test.
+        </p>
+
+    </footer>
+
+</div>
+
+
+<!-- =================================================
+     SCAN LOADING SCRIPT
+================================================== -->
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        const form =
+            document.getElementById("scanForm");
+
+        const loader =
+            document.getElementById("scanLoader");
+
+        const button =
+            document.getElementById("scanButton");
+
+
+        if (form) {
+
+            form.addEventListener(
+                "submit",
+                function () {
+
+                    if (loader) {
+
+                        loader.style.display =
+                            "block";
+
+                    }
+
+                    if (button) {
+
+                        button.disabled =
+                            true;
+
+                        button.innerHTML =
+                            "⏳ Scanning...";
+
+                    }
+
+                }
+            );
+
+        }
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>

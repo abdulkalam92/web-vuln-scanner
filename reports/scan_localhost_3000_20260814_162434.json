@@ -1,0 +1,19 @@
+{
+    "target": "http://localhost:3000",
+    "scan_time": "2026-08-14 16:24:34",
+    "technologies": [],
+    "pages": [],
+    "parameters": [],
+    "js_files": [],
+    "api_endpoints": [],
+    "findings": [],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 0,
+        "Low": 0,
+        "Info": 0
+    },
+    "risk_score": 0,
+    "risk_level": "Informational"
+}

@@ -1,0 +1,75 @@
+{
+    "target": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw==",
+    "scan_time": "2026-08-14 16:06:48",
+    "pages": [
+        "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+    ],
+    "parameters": [
+        {
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw==",
+            "parameter": "next"
+        }
+    ],
+    "js_files": [
+        "https://react.pod-cdn.com/viteEntry/index.4e9cbeae.js"
+    ],
+    "api_endpoints": [
+        "/api/"
+    ],
+    "technologies": [
+        {
+            "name": "cloudflare",
+            "confidence": "Detected from Server header"
+        },
+        {
+            "name": "Cloudflare",
+            "confidence": "Header signature"
+        }
+    ],
+    "findings": [
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options header is missing.",
+            "recommendation": "Set X-Content-Type-Options to 'nosniff'.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        },
+        {
+            "name": "Missing X-XSS-Protection",
+            "severity": "Info",
+            "description": "The legacy X-XSS-Protection header is not present.",
+            "recommendation": "Modern applications should primarily use CSP and proper output encoding.",
+            "url": "https://paruluniversity.pod.ai/?next=aHR0cHM6Ly9wYXJ1bHVuaXZlcnNpdHkucG9kLmFpL2Qvd0pNWlFDLw=="
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 1,
+        "Low": 3,
+        "Info": 1
+    },
+    "risk_score": 24,
+    "risk_level": "Low"
+}

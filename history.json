@@ -1,0 +1,100 @@
+[
+    {
+        "target": "https://owasp.org/www-project-juice-shop/",
+        "scan_time": "2026-08-14 17:10:26",
+        "risk_score": 42,
+        "risk_level": "Medium",
+        "findings_count": 10,
+        "json_report": "scan_20260814_171026.json",
+        "pdf_report": "scan_20260814_171026.pdf"
+    },
+    {
+        "target": "https://owasp.org/www-project-juice-shop/",
+        "scan_time": "2026-08-14 17:06:06",
+        "risk_score": 42,
+        "risk_level": "Medium",
+        "findings_count": 10,
+        "json_report": "scan_20260814_170606.json",
+        "pdf_report": "scan_20260814_170606.pdf"
+    },
+    {
+        "target": "https://owasp.org/www-project-juice-shop/",
+        "scan_time": "2026-08-14 17:01:44",
+        "risk_score": 34,
+        "risk_level": "Low",
+        "findings_count": 28,
+        "json_report": "scan_20260814_170144.json",
+        "pdf_report": "scan_20260814_170144.pdf"
+    },
+    {
+        "target": "https://www.facebook.com/",
+        "scan_time": "2026-08-14 16:52:12",
+        "risk_score": 50,
+        "risk_level": "Medium",
+        "findings_count": 42,
+        "json_report": "scan_20260814_165212.json",
+        "pdf_report": "scan_20260814_165212.pdf"
+    },
+    {
+        "target": "https://www.youtube.com/",
+        "scan_time": "2026-08-14 16:43:24",
+        "risk_score": 50,
+        "risk_level": "Medium",
+        "findings_count": 73,
+        "json_report": "scan_20260814_164324.json"
+    },
+    {
+        "target": "https://owasp.org/www-project-juice-shop/",
+        "scan_time": "2026-08-14 16:31:21",
+        "risk_score": 100,
+        "risk_level": "Critical",
+        "findings_count": 28,
+        "json_report": "scan_20260814_163121.json",
+        "pdf_report": null
+    },
+    {
+        "target": "https://owasp.org/www-project-juice-shop/",
+        "scan_time": "2026-08-14 16:26:27",
+        "risk_score": 72,
+        "risk_level": "High",
+        "findings_count": 30,
+        "json_report": "scan_owasp_org_20260814_162627.json",
+        "pdf_report": "scan_owasp_org_20260814_162627.pdf"
+    },
+    {
+        "target": "http://localhost:3000",
+        "scan_time": "2026-08-14 16:24:34",
+        "risk_score": 0,
+        "risk_level": "Informational",
+        "findings_count": 0,
+        "json_report": "scan_localhost_3000_20260814_162434.json",
+        "pdf_report": "scan_localhost_3000_20260814_162434.pdf"
+    },
+    {
+        "target": "https://www.facebook.com/",
+        "scan_time": "2026-08-14 16:21:28",
+        "risk_score": 100,
+        "risk_level": "Critical",
+        "findings_count": 57,
+        "json_report": "scan_www_facebook_com_20260814_162128.json",
+        "pdf_report": "scan_www_facebook_com_20260814_162128.pdf"
+    },
+    {
+        "target": "https://owasp.org/www-project-juice-shop/",
+        "scan_time": "2026-08-14 16:17:02",
+        "risk_score": 72,
+        "risk_level": "High",
+        "findings_count": 30,
+        "json_report": "scan_owasp_org_20260814_161702.json",
+        "pdf_report": "scan_owasp_org_20260814_161702.pdf"
+    },
+    {
+        "target": "https://www.youtube.com/",
+        "scan_time": "2026-08-14 16:11:44",
+        "risk_score": 100,
+        "risk_level": "Critical",
+        "findings_count": 75,
+        "json_report": "scan_www_youtube_com_20260814_161144.json",
+        "pdf_report": "scan_www_youtube_com_20260814_161144.pdf"
+    }
+]

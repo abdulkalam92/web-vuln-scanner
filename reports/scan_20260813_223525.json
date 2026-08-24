@@ -1,0 +1,505 @@
+{
+    "target": "https://www.mail.com/",
+    "scan_time": "2026-08-13 22:35:25",
+    "pages": [
+        "https://www.mail.com/",
+        "https://www.mail.com/cloud/",
+        "https://www.mail.com/cloud/backup/",
+        "https://www.mail.com/cloud/share/",
+        "https://www.mail.com/features/contacts/",
+        "https://www.mail.com/features/firefox/",
+        "https://www.mail.com/features/online-office/",
+        "https://www.mail.com/features/organizer/",
+        "https://www.mail.com/features/search/",
+        "https://www.mail.com/homepage.html",
+        "https://www.mail.com/mail/",
+        "https://www.mail.com/mail/app/",
+        "https://www.mail.com/mail/business/",
+        "https://www.mail.com/mail/create-email-account/",
+        "https://www.mail.com/mail/domains/",
+        "https://www.mail.com/mail/email-address-ideas/",
+        "https://www.mail.com/mail/mail-collector/",
+        "https://www.mail.com/mail/mailcheck/",
+        "https://www.mail.com/premiumlogin",
+        "https://www.mail.com/premiummail"
+    ],
+    "parameters": [],
+    "js_files": [
+        "https://dl.mail.com/permission/live/portal/v1/ppp/js/permission-client.js",
+        "https://dl.mail.com/tcf/live/v1/js/tcf-api.js",
+        "https://js.ui-portal.de/@cat/project/catalog/6.0.3/components.min.js",
+        "https://js.ui-portal.de/cd/products/mail.com/5.11.3/products.js",
+        "https://js.ui-portal.de/prompt/permission/latest/connector.min.js?exclude=&portal=mail.com&category=permission&section=other&reload=false",
+        "https://s.uicdn.com/fd/jquery/3.7.1/jquery.min.js",
+        "https://s.uicdn.com/mail-int/mailint/1.406.0/assets/_sn_/js/entry.js",
+        "https://s.uicdn.com/mail-int/mailint/1.406.0/assets/_sn_/modules/mod-messagebar/messagebar.js",
+        "https://s.uicdn.com/mail-int/mailint/1.406.0/assets/_sn_/modules/mod-navigation/navigation.js",
+        "https://s.uicdn.com/mail-int/mailint/1.406.0/assets/_sn_/multisearch.js",
+        "https://s.uicdn.com/t/prod/iq/mam/mango/daq.js"
+    ],
+    "api_endpoints": [],
+    "findings": [
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://www.mail.com/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: GDNA",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://www.mail.com/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/cloud/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/cloud/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/cloud/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/cloud/backup/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/cloud/backup/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/cloud/backup/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/cloud/share/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/cloud/share/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/cloud/share/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/features/contacts/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/contacts/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/contacts/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/features/firefox/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/firefox/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/firefox/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/features/online-office/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/online-office/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/online-office/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/features/organizer/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/organizer/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/organizer/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/features/search/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/search/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/features/search/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://www.mail.com/homepage.html"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/homepage.html"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/homepage.html"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: GDNA",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://www.mail.com/homepage.html"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/app/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/app/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/app/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/business/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/business/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/business/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/create-email-account/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/create-email-account/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/create-email-account/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/domains/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/domains/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/domains/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/email-address-ideas/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/email-address-ideas/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/email-address-ideas/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/mail-collector/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/mail-collector/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/mail-collector/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/mail/mailcheck/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/mailcheck/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/mail/mailcheck/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://www.mail.com/premiumlogin"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/premiumlogin"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/premiumlogin"
+        },
+        {
+            "name": "Cookie missing HttpOnly flag: GDNA",
+            "severity": "Medium",
+            "description": "The cookie does not have the HttpOnly attribute.",
+            "recommendation": "Set HttpOnly where appropriate to reduce client-side script access.",
+            "url": "https://www.mail.com/premiumlogin"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Low",
+            "description": "The Content-Security-Policy security header was not found in the response.",
+            "recommendation": "Configure the Content-Security-Policy header where appropriate.",
+            "url": "https://www.mail.com/premiummail"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Frame-Options header where appropriate.",
+            "url": "https://www.mail.com/premiummail"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options security header was not found in the response.",
+            "recommendation": "Configure the X-Content-Type-Options header where appropriate.",
+            "url": "https://www.mail.com/premiummail"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The Referrer-Policy security header was not found in the response.",
+            "recommendation": "Configure the Referrer-Policy header where appropriate.",
+            "url": "https://www.mail.com/premiummail"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The Permissions-Policy security header was not found in the response.",
+            "recommendation": "Configure the Permissions-Policy header where appropriate.",
+            "url": "https://www.mail.com/premiummail"
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 3,
+        "Low": 62,
+        "Info": 0
+    }
+}

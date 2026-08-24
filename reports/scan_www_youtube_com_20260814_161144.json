@@ -1,0 +1,650 @@
+{
+    "target": "https://www.youtube.com/",
+    "scan_time": "2026-08-14 16:11:44",
+    "technologies": [
+        {
+            "name": "sffe",
+            "confidence": "Server header"
+        },
+        {
+            "name": "Google Frontend",
+            "confidence": "Server header"
+        },
+        {
+            "name": "ESF",
+            "confidence": "Server header"
+        }
+    ],
+    "pages": [
+        "https://about.youtube/",
+        "https://blog.youtube/",
+        "https://policies.google.com/privacy?hl=en-GB",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/ads/",
+        "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ",
+        "https://www.youtube.com/creators/",
+        "https://www.youtube.com/creators/create/podcasts/",
+        "https://www.youtube.com/howyoutubeworks/",
+        "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+        "https://www.youtube.com/howyoutubeworks/copyright/",
+        "https://www.youtube.com/howyoutubeworks/our-policies/",
+        "https://www.youtube.com/jobs/",
+        "https://www.youtube.com/musicpremium",
+        "https://www.youtube.com/myfamily/",
+        "https://www.youtube.com/new",
+        "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB",
+        "https://www.youtube.com/t/contact_us/",
+        "https://www.youtube.com/t/terms",
+        "https://www.youtube.com/trends/"
+    ],
+    "parameters": [
+        {
+            "url": "https://policies.google.com/privacy?hl=en-GB",
+            "parameter": "hl"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_campaign"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_source"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_medium"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "utm_content"
+        },
+        {
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+            "parameter": "u"
+        },
+        {
+            "url": "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB",
+            "parameter": "ybp"
+        }
+    ],
+    "js_files": [
+        "https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=UA-150549451-1",
+        "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdentityPoliciesUi.en_GB._I_WSLNV_ss.2018.O/am=AAAAADAhEwAE/d=1/excm=_b,_tp,privacyhomeview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFT3SiUk4NGYmjpLILT7n-sLDmlJw/dti=1/m=_b,_tp",
+        "https://www.gstatic.com/external_hosted/greensock3/dist/gsap.min.js",
+        "https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js",
+        "https://www.gstatic.com/external_hosted/modernizr/v2_8_3/modernizr.js",
+        "https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js",
+        "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-K7VCRCF&cookieCategory=2A",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-KKWTJ5T&cookieCategory=2A",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/gtm/gtm.js?id=GTM-TRKR6LD&cookieCategory=2B",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/creators-4.0.31-c61f107/styles/default/All.min.js",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/youtube-about-1.0.2-4a904a4/styles/default/All.min.js",
+        "https://www.gstatic.com/marketing-cms/reviewed-scripts/prod/youtube-myfamily-1.0.20-39a4aba/styles/default/All.min.js",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/copyright.index.min.js?cache=10fe866e1d",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/main.index.min.js?cache=fa656fb801",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/policies.index.min.js?cache=690b9f66ba",
+        "https://www.youtube.com/howyoutubeworks/static/compiled/shared.index.min.js?cache=48a9d55d58",
+        "https://www.youtube.com/iframe_api",
+        "https://www.youtube.com/jobs/static/compiled/index.min.js?cache=c694348",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAAAIAEAASAw/d=1/rs=AGKMywH9XB0EzCYbyN03wTR2vfnwfVk7Nw/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAAAgAEAASAw/d=1/rs=AGKMywEaIZDqQO8ZEFfmzxujphhdZmMEvA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAEAAAEAASAw/d=1/rs=AGKMywHukIOWLRpf2sM_zqbSoA3BY7O4zQ/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAIAAAEAASAw/d=1/rs=AGKMywH8C_BVxb-TVn_KxBWbS-QXCwIEgg/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.K-Oo6Rtbuzg.es5.O/am=AAAAgAAAEAASAw/d=1/rs=AGKMywGiU9Xe91GaPdfgl-heFEMsTg4rnw/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/network.vflset/network.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/scheduler.vflset/scheduler.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/spf.vflset/spf.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
+        "https://www.youtube.com/s/desktop/01a26818/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js",
+        "https://www.youtube.com/trends/static/compiled/index.min.js?cache=3d50803"
+    ],
+    "api_endpoints": [
+        "/api/",
+        "/api/jnn/v1/GenerateIT",
+        "/api/lounge",
+        "/api/loungedev"
+    ],
+    "findings": [
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://about.youtube/"
+        },
+        {
+            "name": "Missing X-Content-Type-Options",
+            "severity": "Low",
+            "description": "The X-Content-Type-Options header is missing.",
+            "recommendation": "Set X-Content-Type-Options to 'nosniff'.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing X-XSS-Protection",
+            "severity": "Info",
+            "description": "The legacy X-XSS-Protection header is not present.",
+            "recommendation": "Modern applications should primarily use CSP and proper output encoding.",
+            "url": "https://blog.youtube/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Cookie Missing Secure Flag",
+            "severity": "Medium",
+            "description": "The cookie 'NID' does not have the Secure attribute.",
+            "recommendation": "Set the Secure attribute so the cookie is sent only over HTTPS.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'NID' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://policies.google.com/privacy?hl=en-GB"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'GPS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'NID' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/ads/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'GPS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Medium",
+            "description": "The response does not include a Content-Security-Policy header.",
+            "recommendation": "Implement an appropriate Content-Security-Policy.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/creators/"
+        },
+        {
+            "name": "Missing Content-Security-Policy",
+            "severity": "Medium",
+            "description": "The response does not include a Content-Security-Policy header.",
+            "recommendation": "Implement an appropriate Content-Security-Policy.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/creators/create/podcasts/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/howyoutubeworks/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/jobs/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/musicpremium"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'GPS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/musicpremium"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'NID' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/myfamily/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/new"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'GPS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/new"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB"
+        },
+        {
+            "name": "Cookie Missing SameSite Attribute",
+            "severity": "Low",
+            "description": "The cookie 'GPS' does not define a SameSite attribute.",
+            "recommendation": "Configure an appropriate SameSite policy such as Lax or Strict.",
+            "url": "https://www.youtube.com/premium?ybp=Sg0IBhIJdW5saW1pdGVk4AEB"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/t/contact_us/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/t/contact_us/"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/t/terms"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/t/terms"
+        },
+        {
+            "name": "Missing Referrer-Policy",
+            "severity": "Low",
+            "description": "The application does not specify a Referrer-Policy.",
+            "recommendation": "Configure a suitable Referrer-Policy such as strict-origin-when-cross-origin.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Missing Permissions-Policy",
+            "severity": "Low",
+            "description": "The application does not define a Permissions-Policy header.",
+            "recommendation": "Configure Permissions-Policy to restrict unnecessary browser capabilities.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Missing Strict-Transport-Security",
+            "severity": "Medium",
+            "description": "The Strict-Transport-Security header is missing.",
+            "recommendation": "Enable HSTS when the application is served exclusively over HTTPS.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Missing X-Frame-Options",
+            "severity": "Low",
+            "description": "The X-Frame-Options header is missing.",
+            "recommendation": "Set X-Frame-Options to DENY or SAMEORIGIN where appropriate.",
+            "url": "https://www.youtube.com/trends/"
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://policies.google.com/privacy?hl=VULNTEST_7A91",
+            "parameter": "hl",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        },
+        {
+            "name": "Reflected Input Detected",
+            "severity": "Medium",
+            "url": "https://www.youtube.com/premium?ybp=VULNTEST_7A91",
+            "parameter": "ybp",
+            "description": "A harmless test marker supplied through a URL parameter was reflected in the HTTP response. This indicates an input-reflection point but does not confirm XSS.",
+            "recommendation": "Review the reflection context and apply appropriate output encoding and input validation."
+        }
+    ],
+    "severity_counts": {
+        "Critical": 0,
+        "High": 0,
+        "Medium": 18,
+        "Low": 56,
+        "Info": 1
+    },
+    "risk_score": 100,
+    "risk_level": "Critical"
+}

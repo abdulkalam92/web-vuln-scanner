@@ -1,0 +1,764 @@
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b1220;
+    color: #e8eef7;
+    line-height: 1.6;
+}
+
+a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 35px 0 60px;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header p {
+    color: #94a3b8;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.history-button {
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.button,
+.scan-button {
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover,
+.scan-button:hover {
+    background: #1d4ed8;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   SCANNER CARD
+========================================================= */
+
+.scanner-card {
+    background: #111c2e;
+    border: 1px solid #26364d;
+    border-radius: 14px;
+    padding: 28px;
+    margin-bottom: 35px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.scanner-card h2 {
+    font-size: 23px;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+.input-group {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #34445c;
+    background: #0b1424;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.input-group input::placeholder {
+    color: #64748b;
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.error-message {
+    margin-top: 18px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: #3b1118;
+    border: 1px solid #7f1d1d;
+    color: #fca5a5;
+}
+
+
+/* =========================================================
+   RESULTS
+========================================================= */
+
+.results-section {
+    margin-top: 30px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.scan-time {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   TARGET
+========================================================= */
+
+.target-box {
+    background: #111c2e;
+    border: 1px solid #26364d;
+    border-radius: 10px;
+    padding: 17px 20px;
+    margin-bottom: 25px;
+    overflow-wrap: anywhere;
+}
+
+.target-box strong {
+    color: #93c5fd;
+    margin-right: 8px;
+}
+
+
+/* =========================================================
+   DASHBOARD GRID
+========================================================= */
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.dashboard-card {
+    background: #111c2e;
+    border: 1px solid #30415a;
+    border-radius: 12px;
+    padding: 22px;
+    text-align: center;
+    min-height: 145px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard-card h3 {
+    color: #cbd5e1;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.risk-score {
+    font-size: 46px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.risk-score span {
+    font-size: 17px;
+    color: #64748b;
+}
+
+.stat-number {
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   RISK LEVEL
+========================================================= */
+
+.risk-level {
+    display: inline-block;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.risk-level.critical {
+    background: #7f1d1d;
+    color: #fecaca;
+}
+
+.risk-level.high {
+    background: #7c2d12;
+    color: #fed7aa;
+}
+
+.risk-level.medium {
+    background: #713f12;
+    color: #fef08a;
+}
+
+.risk-level.low {
+    background: #14532d;
+    color: #bbf7d0;
+}
+
+.risk-level.informational {
+    background: #1e3a5f;
+    color: #bfdbfe;
+}
+
+
+/* =========================================================
+   REPORT ACTIONS
+========================================================= */
+
+.report-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.report-actions form {
+    margin: 0;
+}
+
+.report-actions .button {
+    background: #16a34a;
+}
+
+.report-actions .button:hover {
+    background: #15803d;
+}
+
+
+/* =========================================================
+   RESULT CARDS
+========================================================= */
+
+.result-card {
+    background: #111c2e;
+    border: 1px solid #26364d;
+    border-radius: 14px;
+    padding: 26px;
+    margin-bottom: 25px;
+}
+
+.result-card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   SEVERITY
+========================================================= */
+
+.severity-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+
+.severity {
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 18px;
+    text-align: center;
+    background: #172235;
+}
+
+.severity strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.severity span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.severity.critical strong {
+    color: #f87171;
+}
+
+.severity.high strong {
+    color: #fb923c;
+}
+
+.severity.medium strong {
+    color: #facc15;
+}
+
+.severity.low strong {
+    color: #4ade80;
+}
+
+.severity.info strong {
+    color: #60a5fa;
+}
+
+
+/* =========================================================
+   TECHNOLOGIES
+========================================================= */
+
+.technology-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.technology-tag {
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 20px;
+    background: #172554;
+    border: 1px solid #1d4ed8;
+    color: #bfdbfe;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.muted {
+    color: #64748b;
+}
+
+
+/* =========================================================
+   DISCOVERY
+========================================================= */
+
+.discovery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.discovery-grid > div {
+    background: #172235;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.discovery-grid strong {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.discovery-grid p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+
+/* =========================================================
+   FINDINGS
+========================================================= */
+
+.finding-card {
+    background: #172235;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 15px;
+}
+
+.finding-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.finding-header h3 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.finding-card p {
+    color: #cbd5e1;
+    margin-bottom: 12px;
+}
+
+.finding-severity {
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.finding-severity.critical {
+    background: #7f1d1d;
+    color: #fecaca;
+}
+
+.finding-severity.high {
+    background: #7c2d12;
+    color: #fed7aa;
+}
+
+.finding-severity.medium {
+    background: #713f12;
+    color: #fef08a;
+}
+
+.finding-severity.low {
+    background: #14532d;
+    color: #bbf7d0;
+}
+
+.finding-severity.info {
+    background: #1e3a5f;
+    color: #bfdbfe;
+}
+
+.recommendation {
+    padding-top: 12px;
+    border-top: 1px solid #334155;
+    color: #94a3b8;
+}
+
+.recommendation strong {
+    color: #93c5fd;
+}
+
+.no-findings {
+    padding: 20px;
+    border-radius: 10px;
+    background: #052e16;
+    border: 1px solid #166534;
+    color: #86efac;
+}
+
+
+/* =========================================================
+   COOKIE TABLE
+========================================================= */
+
+.cookie-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 13px 15px;
+    border-bottom: 1px solid #334155;
+    text-align: left;
+}
+
+th {
+    background: #172235;
+    color: #93c5fd;
+}
+
+td {
+    color: #cbd5e1;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid #26364d;
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* =========================================================
+   HISTORY
+========================================================= */
+
+.history-card {
+    background: #111c2e;
+    border: 1px solid #26364d;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 18px;
+}
+
+.history-card h2 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.history-card p {
+    color: #cbd5e1;
+    margin: 6px 0;
+}
+
+.history-card strong {
+    color: #93c5fd;
+}
+
+
+/* =========================================================
+   SCAN LOADER
+========================================================= */
+
+.scan-loader {
+    display: none;
+    margin-top: 25px;
+    padding: 30px;
+    text-align: center;
+    background: #111c2e;
+    border: 1px solid #26364d;
+    border-radius: 14px;
+}
+
+.scan-loader h3 {
+    margin: 15px 0 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.scan-loader p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.spinner {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+
+    border: 4px solid #334155;
+    border-top: 4px solid #3b82f6;
+
+    border-radius: 50%;
+
+    animation: scanner-spin 1s linear infinite;
+}
+
+@keyframes scanner-spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .severity-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .discovery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .severity-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .discovery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .report-actions {
+        justify-content: stretch;
+    }
+
+    .report-actions .button {
+        width: 100%;
+    }
+
+    .finding-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+/* =========================================================
+   PDF REPORT
+========================================================= */
+
+.report-download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    background: #111c2e;
+    border: 1px solid #26364d;
+    border-radius: 12px;
+
+    padding: 20px 24px;
+    margin-bottom: 25px;
+}
+
+.report-download strong {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.report-download p {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.report-download .button {
+    white-space: nowrap;
+    background: #16a34a;
+}
+
+.report-download .button:hover {
+    background: #15803d;
+}
+
+
+@media (max-width: 600px) {
+
+    .report-download {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .report-download .button {
+        width: 100%;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Scan History</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+
+        <div>
+            <h1>🕘 Scan History</h1>
+
+            <p>
+                Previous vulnerability scans
+            </p>
+        </div>
+
+        <a
+            href="{{ url_for('index') }}"
+            class="button"
+        >
+            ← Back to Scanner
+        </a>
+
+    </header>
+
+
+    {% if history %}
+
+        {% for scan in history %}
+
+        <div class="history-card">
+
+            <h2>
+                {{ scan.get("target", "Unknown Target") }}
+            </h2>
+
+            <p>
+                <strong>Scan Time:</strong>
+                {{ scan.get("scan_time", "Unknown") }}
+            </p>
+
+            <p>
+                <strong>Risk Score:</strong>
+                {{ scan.get("risk_score", 0) }}/100
+            </p>
+
+            <p>
+                <strong>Risk Level:</strong>
+                {{ scan.get("risk_level", "Informational") }}
+            </p>
+
+            <p>
+                <strong>Findings:</strong>
+                {{ scan.get("findings", [])|length }}
+            </p>
+
+            <p>
+                <strong>Pages:</strong>
+                {{ scan.get("pages", [])|length }}
+            </p>
+
+        </div>
+
+        {% endfor %}
+
+    {% else %}
+
+        <div class="no-findings">
+
+            No previous scans found.
+
+        </div>
+
+    {% endif %}
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Security Dashboard</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- =====================================
+         NAVIGATION
+    ====================================== -->
+
+    <nav class="navbar">
+
+        <a href="/">
+            Scanner
+        </a>
+
+        <a href="/dashboard">
+            Dashboard
+        </a>
+
+        <a href="/history">
+            History
+        </a>
+
+    </nav>
+
+
+    <!-- =====================================
+         HEADER
+    ====================================== -->
+
+    <h1>
+        Security Dashboard
+    </h1>
+
+    <p class="subtitle">
+        Web Vulnerability Scanner Analytics
+    </p>
+
+
+    <!-- =====================================
+         STATISTICS
+    ====================================== -->
+
+    <div class="summary-grid">
+
+        <div class="summary-card">
+
+            <span class="summary-number">
+                {{ data.total_scans }}
+            </span>
+
+            <span>
+                Total Scans
+            </span>
+
+        </div>
+
+
+        <div class="summary-card">
+
+            <span class="summary-number">
+                {{ data.total_findings }}
+            </span>
+
+            <span>
+                Total Findings
+            </span>
+
+        </div>
+
+
+        <div class="summary-card">
+
+            <span class="summary-number">
+                {{ data.average_risk }}
+            </span>
+
+            <span>
+                Average Risk
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         CHARTS
+    ====================================== -->
+
+    <div class="charts-container">
+
+        <!-- Risk Distribution -->
+
+        <div class="chart-card">
+
+            <h2>
+                Risk Distribution
+            </h2>
+
+            <canvas id="riskChart"></canvas>
+
+        </div>
+
+
+        <!-- Risk Overview -->
+
+        <div class="chart-card">
+
+            <h2>
+                Security Overview
+            </h2>
+
+            <canvas id="overviewChart"></canvas>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         RISK DISTRIBUTION
+    ====================================== -->
+
+    <div class="section">
+
+        <h2>
+            Risk Distribution
+        </h2>
+
+
+        {% for level, count in
+           data.risk_distribution.items() %}
+
+
+            <div class="risk-row">
+
+                <div class="risk-label">
+
+                    <strong>
+                        {{ level }}
+                    </strong>
+
+                    <span>
+                        {{ count }} scan(s)
+                    </span>
+
+                </div>
+
+
+                <div class="risk-bar-container">
+
+                    {% if data.total_scans > 0 %}
+
+                        {% set percentage =
+                            (count * 100 /
+                            data.total_scans)
+                        %}
+
+                    {% else %}
+
+                        {% set percentage = 0 %}
+
+                    {% endif %}
+
+
+                    <div
+                        class="risk-bar"
+                        style="width:
+                        {{ percentage }}%;"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- =====================================
+         RECENT SCANS
+    ====================================== -->
+
+    <div class="section">
+
+        <h2>
+            Recent Scans
+        </h2>
+
+
+        {% if data.recent_scans %}
+
+
+            {% for scan in data.recent_scans %}
+
+
+                <div class="finding">
+
+                    <h3>
+                        {{ scan.target }}
+                    </h3>
+
+
+                    <p>
+
+                        <strong>
+                            Scan Time:
+                        </strong>
+
+                        {{ scan.scan_time }}
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Risk Score:
+                        </strong>
+
+                        {{ scan.risk_score }}/100
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Risk Level:
+                        </strong>
+
+                        {{ scan.risk_level }}
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Findings:
+                        </strong>
+
+                        {{ scan.findings_count }}
+
+                    </p>
+
+                </div>
+
+
+            {% endfor %}
+
+
+        {% else %}
+
+
+            <p>
+                No scans have been completed yet.
+            </p>
+
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     CHART JAVASCRIPT
+========================================== -->
+
+<script>
+
+    /*
+     * Risk distribution data
+     */
+
+    const riskData = {
+        labels: [
+            "Critical",
+            "High",
+            "Medium",
+            "Low",
+            "Informational"
+        ],
+
+        datasets: [{
+            label: "Scans",
+
+            data: [
+                {{ data.risk_distribution["Critical"] }},
+                {{ data.risk_distribution["High"] }},
+                {{ data.risk_distribution["Medium"] }},
+                {{ data.risk_distribution["Low"] }},
+                {{ data.risk_distribution["Informational"] }}
+            ]
+        }]
+    };
+
+
+    /*
+     * Risk distribution chart
+     */
+
+    new Chart(
+        document.getElementById("riskChart"),
+        {
+            type: "doughnut",
+
+            data: riskData,
+
+            options: {
+                responsive: true,
+
+                plugins: {
+                    legend: {
+                        position: "bottom"
+                    }
+                }
+            }
+        }
+    );
+
+
+    /*
+     * Security overview
+     */
+
+    const overviewData = {
+
+        labels: [
+            "Total Scans",
+            "Total Findings",
+            "Average Risk"
+        ],
+
+        datasets: [{
+
+            label: "Security Statistics",
+
+            data: [
+                {{ data.total_scans }},
+                {{ data.total_findings }},
+                {{ data.average_risk }}
+            ]
+
+        }]
+
+    };
+
+
+    /*
+     * Overview chart
+     */
+
+    new Chart(
+        document.getElementById("overviewChart"),
+        {
+            type: "bar",
+
+            data: overviewData,
+
+            options: {
+
+                responsive: true,
+
+                scales: {
+
+                    y: {
+                        beginAtZero: true
+                    }
+
+                }
+
+            }
+
+        }
+    );
+
+</script>
+
+
+</body>
+
+</html>
