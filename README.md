@@ -52,7 +52,7 @@ Technology detection is based on HTTP response headers and HTML content.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/abdul1818-web/web-vuln-scanner.git
+git clone https://github.com/abdulkalam92/web-vuln-scanner.git
 ```
 
 ### 2. Navigate to the project directory
